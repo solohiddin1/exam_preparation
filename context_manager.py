@@ -1,3 +1,4 @@
+from contextlib import contextmanager
 
 class MyContext:
     def __enter__(self):
@@ -22,7 +23,6 @@ def do_something():
 # do_something()
 
 
-from contextlib import contextmanager
 
 @contextmanager
 def context_manager():
