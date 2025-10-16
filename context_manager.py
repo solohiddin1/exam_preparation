@@ -10,7 +10,7 @@ class MyContext:
         if exc_type:
             print(f"An exception occurred: {exc_value}")
         print("Cleanup actions can be performed here")
-        return False  # Propagate exception if any
+        return False  
     
 
 
