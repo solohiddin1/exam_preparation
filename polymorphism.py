@@ -19,6 +19,22 @@ people = [
     Student("Charlie", 22),
     Teacher("Diana", 35)]
 
-for p in people:
-    print(p.info())
+# for p in people:
+#     print(p.info())
     
+
+class Bird:
+    def fly(self):
+        print("Bird is flying")
+
+
+class Airplane:
+    def fly(self):
+        print("Airplane is flying")
+
+
+def lets_fly(obj):
+    obj.fly()  # works with any object having fly() method
+
+lets_fly(Bird())
+lets_fly(Airplane())

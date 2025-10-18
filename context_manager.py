@@ -20,15 +20,15 @@ def do_something():
         # Uncomment the next line to simulate an exception
         # raise ValueError("An error occurred!")
 
-# do_something()
+do_something()
 
 
 
-@contextmanager
-def context_manager():
-    print('entering')
-    yield 'value'
-    print('exiting')
+# @contextmanager
+# def context_manager():
+#     print('entering')
+#     yield 'value'
+#     print('exiting')
 
-with context_manager()as c:
-    print('this is context',c)
+# with context_manager()as c:
+#     print('this is context',c)

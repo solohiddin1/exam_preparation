@@ -15,7 +15,7 @@ class Circle(Shape):
     
 c = Circle(5)
 # s = Shape()
-# print(f"Area of the circle: {c.area()}")
+print(f"Area of the circle: {c.area()}")
 
 
 
@@ -101,9 +101,9 @@ class Footballer(Person):
         return f"this is helper"
         
 
-f = Footballer("John", 25, "FC Barcelona")
-print(f.show)
-print(f.info)
-print(f)
-print(f.change(2))
-print(f.helper())
+# f = Footballer("John", 25, "FC Barcelona")
+# print(f.show)
+# print(f.info)
+# print(f)
+# print(f.change(2))
+# print(f.helper())

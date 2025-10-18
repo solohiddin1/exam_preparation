@@ -17,7 +17,7 @@ def thread_task(name=None):
     time.sleep(2)  # Simulate a task taking some time
     print(f"Thread Task '{name}' completed in {time.time() - start_time} seconds")
 
-t1 = threading.Thread(target=thread_task, args=("Thread 1",))
+t1 = threading.Thread(target=task, args=("Thread 1",))
 t2 = threading.Thread(target=thread_task, args=("Thread 2",))
 
 t1.start()
